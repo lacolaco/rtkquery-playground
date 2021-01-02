@@ -1049,6 +1049,13 @@
     "@babel/runtime" "^7.12.5"
     immer ">=8.0.0"
 
+"@rtk-incubator/rtk-query@https://pkg.csb.dev/rtk-incubator/rtk-query/commit/8d623542/@rtk-incubator/rtk-query":
+  version "0.1.0"
+  resolved "https://pkg.csb.dev/rtk-incubator/rtk-query/commit/8d623542/@rtk-incubator/rtk-query#966ee1b45d200523502015360235ee6104d5dab1"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    immer ">=8.0.0"
+
 "@schematics/angular@9.1.13":
   version "9.1.13"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-9.1.13.tgz#e4be3f8b71ef8b27f0d1f0b1325f9806f56cb683"
