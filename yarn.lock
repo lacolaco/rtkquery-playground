@@ -1041,17 +1041,16 @@
     redux-thunk "^2.3.0"
     reselect "^4.0.0"
 
-"@rtk-incubator/rtk-query@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@rtk-incubator/rtk-query/-/rtk-query-0.2.0.tgz#ec7cfb90e44268eb70ac8df6a7eb7208c315fed1"
-  integrity sha512-XuxYLHk7LS65I0gwXITS8B2MMzL2qOobr6Kj7TGLQcjHktKlL2JZ1Y871D9ikBHvTwKqpROPOXlBcL035XO9sg==
+"@rtk-incubator/rtk-query@https://pkg.csb.dev/rtk-incubator/rtk-query/commit/8d623542/@rtk-incubator/rtk-query":
+  version "0.1.0"
+  resolved "https://pkg.csb.dev/rtk-incubator/rtk-query/commit/8d623542/@rtk-incubator/rtk-query#966ee1b45d200523502015360235ee6104d5dab1"
   dependencies:
     "@babel/runtime" "^7.12.5"
     immer ">=8.0.0"
 
-"@rtk-incubator/rtk-query@https://pkg.csb.dev/rtk-incubator/rtk-query/commit/8d623542/@rtk-incubator/rtk-query":
+"@rtk-incubator/rtk-query@https://pkg.csb.dev/rtk-incubator/rtk-query/commit/fec237a0/@rtk-incubator/rtk-query":
   version "0.1.0"
-  resolved "https://pkg.csb.dev/rtk-incubator/rtk-query/commit/8d623542/@rtk-incubator/rtk-query#966ee1b45d200523502015360235ee6104d5dab1"
+  resolved "https://pkg.csb.dev/rtk-incubator/rtk-query/commit/fec237a0/@rtk-incubator/rtk-query#e2967810975c6ac87fbadb5bb476a152cb61b994"
   dependencies:
     "@babel/runtime" "^7.12.5"
     immer ">=8.0.0"
