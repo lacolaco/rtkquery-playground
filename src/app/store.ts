@@ -1,13 +1,15 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { NgModule } from '@angular/core';
+import { StoreModule } from '@ngrx/store';
+import { combineReducers } from '@reduxjs/toolkit';
 import { pokemonApi } from './api/pokemon';
 
-export const store = configureStore({
-  reducer: {
-    // Add the generated reducer as a specific top-level slice
-    [pokemonApi.reducerPath]: pokemonApi.reducer,
-  },
-  // Adding the api middleware enables caching, invalidation, polling,
-  // and other useful features of `rtk-query`.
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(pokemonApi.middleware),
+const reducers = combineReducers({
+  [pokemonApi.reducerPath]: pokemonApi.reducer,
 });
+
+export type RootState = ReturnType<typeof reducers>;
+
+@NgModule({
+  imports: [StoreModule.forRoot(reducers)],
+})
+export class AppStoreModule {}
